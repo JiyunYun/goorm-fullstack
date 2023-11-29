@@ -1,3 +1,6 @@
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+
 // Singly LinkedList
 public class MyLinkedList<E> {
     private Node<E> head; // 리스트의 가장 첫 번째 노드를 가리키는 포인트
@@ -137,4 +140,34 @@ public class MyLinkedList<E> {
 
         return search(index).item;
     }
+
+//    public Iterator iterator() {
+//        return new MyLinkedListIterator();
+//    }
+//
+//    class MyLinkedListIterator implements Iterator<E> {
+//        Node<E> n;
+//
+//        // 생성자
+//        public MyLinkedListIterator() {
+//            n = head;
+//        }
+//
+//        @Override
+//        public boolean hasNext() {
+//            return n != null;
+//        }
+//
+//        @Override
+//        public E next() {
+//            if (!hasNext()) {
+//                throw new NoSuchElementException();
+//            }
+//
+//            E value = n.item;
+//            n = n.next;
+//
+//            return value;
+//        }
+//    }
 }
