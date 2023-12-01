@@ -62,7 +62,7 @@ public class CartApp {
 I/O 스트림을 사용하여 `csv` 파일로부터 상품 목록을 불러올 수 있도록 장바구니 앱을 수정
 
 #### 참고
-- [Java] HashMap, HashSet 이란? - (5) HashMap과 HashSet의 차이
+- [Java] HashMap, HashSet 이란? - (5) HashMap과 HashSet의 차이<br/>
 https://siahn95.tistory.com/96
 - [Java] equals와 hashCode 함수<br/>
 https://mangkyu.tistory.com/101
