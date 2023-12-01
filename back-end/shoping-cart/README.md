@@ -37,7 +37,7 @@ public class CartApp {
     public static void main(String[] args) {
         // 상품 목록 생성
         Set<Product> productSet = new HashSet<>();
-        // TO DO: 상품 클래스를 생성하여 상품목록에 넣는다.
+        // TO DO: 상품 클래스를 생성하여 상품 목록에 넣는다.
         
         // 상품 목록 확인
         System.out.println("고유한 상품 목록: ");
@@ -60,3 +60,9 @@ public class CartApp {
 
 #### 하위 과제
 I/O 스트림을 사용하여 `csv` 파일로부터 상품 목록을 불러올 수 있도록 장바구니 앱을 수정
+
+#### 참고
+- [Java] HashMap, HashSet 이란? - (5) HashMap과 HashSet의 차이
+https://siahn95.tistory.com/96
+- [Java] equals와 hashCode 함수<br/>
+https://mangkyu.tistory.com/101
