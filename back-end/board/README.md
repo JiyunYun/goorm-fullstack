@@ -1,2 +1,2 @@
-**Goormthon Training Assignment #10**
-# 응답/에러 모델 만들기
+**Goormthon Training Assignment #11**
+# 게시판 구현하기
